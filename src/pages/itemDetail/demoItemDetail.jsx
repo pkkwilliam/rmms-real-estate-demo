@@ -3,7 +3,8 @@ import DemoItemDetailView from "./demoItemDetail.view";
 
 export default class DemoItemDetail extends ItemDetail {
   state = {
-    ...this.state
+    ...this.state,
+    showAgency: false
   };
 
   render() {
@@ -14,4 +15,10 @@ export default class DemoItemDetail extends ItemDetail {
       />
     );
   }
+
+  toggleShowAgency = () => {
+    this.setState(state => ({
+      showAgency: !state.showAgency
+    }));
+  };
 }
