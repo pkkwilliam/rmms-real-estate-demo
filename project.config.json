@@ -2,9 +2,9 @@
   "miniprogramRoot": "dist/",
   "projectname": "rmms-weapp-real-estate",
   "description": "",
-  "appid": "wxaf26db6837e7297f",
+  "appid": "wx4903be31b4350d01",
   "setting": {
-    "urlCheck": false,
+    "urlCheck": true,
     "es6": false,
     "enhance": false,
     "postcss": false,

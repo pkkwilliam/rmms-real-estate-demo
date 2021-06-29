@@ -1,9 +1,10 @@
 module.exports = {
   env: {
-    NODE_ENV: '"production"'
+    COMPANY_ID: "1",
+    NODE_ENV: '"production"',
+    SERVICE_URL: '"https://rmms-api.bitcode.mo"'
   },
-  defineConstants: {
-  },
+  defineConstants: {},
   mini: {},
   h5: {
     /**
@@ -15,4 +16,4 @@ module.exports = {
      * }
      */
   }
-}
+};

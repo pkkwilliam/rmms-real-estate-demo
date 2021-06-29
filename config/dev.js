@@ -1,11 +1,12 @@
 module.exports = {
   env: {
-    NODE_ENV: '"development"'
+    COMPANY_ID: "1",
+    NODE_ENV: '"development"',
+    SERVICE_URL: '"https://rmms-api.bitcode.mo"'
   },
-  defineConstants: {
-  },
+  defineConstants: {},
   mini: {},
   h5: {
-    esnextModules: ['taro-ui']
+    esnextModules: ["taro-ui"]
   }
-}
+};

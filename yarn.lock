@@ -12671,6 +12671,19 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
+"rmms-taro-parent@git+https://github.com/pkkwilliam/rmms-taro-parent.git":
+  version "1.0.0"
+  resolved "git+https://github.com/pkkwilliam/rmms-taro-parent.git#0f2ee465cd05867dffe79cf8c3c56a2bfabd9d98"
+  dependencies:
+    "@babel/runtime" "^7.7.7"
+    "@tarojs/components" "3.2.1"
+    "@tarojs/react" "3.2.1"
+    "@tarojs/runtime" "3.2.1"
+    "@tarojs/taro" "3.2.1"
+    react "^17.0.0"
+    react-dom "^17.0.0"
+    taro-ui "^3.0.0-alpha.2"
+
 run-async@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/run-async/-/run-async-0.1.0.tgz#c8ad4a5e110661e402a7d21b530e009f25f8e389"
@@ -13937,7 +13950,7 @@ taro-css-to-react-native@^2.0.4:
     css-mediaquery "^0.1.2"
     postcss-value-parser "^3.3.0"
 
-taro-ui@^3.0.0-alpha.3:
+taro-ui@^3.0.0-alpha.2, taro-ui@^3.0.0-alpha.3:
   version "3.0.0-alpha.10"
   resolved "https://registry.yarnpkg.com/taro-ui/-/taro-ui-3.0.0-alpha.10.tgz#c6fb95ddb70d31c5b1e242cdc25fb11d630339a2"
   integrity sha512-sNgMFKv1WrcUvxVrIP5CwzfSAdx5nCGJhb5+4atzK+nJneuX9lKO4hZhlJ4FchrlF68QjM5s5Rb47VAuXVbKsA==
